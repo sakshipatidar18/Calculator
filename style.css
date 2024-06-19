@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   /* background-image:url(desktop-wallpaper-nature-forest-road-and-background-dark-forest-road.jpg); */
+   background-image: url(gauravfinalab\ to\ hai\ hi.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-origin:content-box;
+}
+.conatainer{
+    width: 350px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 1rem;
+    background-color: rgb(72, 69, 69);
+    opacity: 0.8;
+    border-radius: 8px;
+    border: 2px solid rgb(36, 36, 36);
+    box-shadow: 0px 0px 20px 3px black;
+}
+.input{
+    width: 100%;
+    height: 80px;
+    color: rgb(2, 2, 2);
+    background-color: rgb(232, 219, 219);
+    outline: none;
+    border: none;
+    font-size: 3rem;
+    font-weight: 200;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    padding: 1rem;
+    opacity: 0.4;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 2px 2px  rgb(232, 219, 219);
+    text-align: right;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 18px;
+    background-color: rgba(1, 0, 0, 0.806);
+    opacity: 1;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+#done2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgb(219, 105, 24);;
+    opacity: 1;
+}
+#done{
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: 1;
+}
+h1{
+    font-size: 3rem;
+    color: rgb(219, 105, 24);
+    margin-bottom: 2rem;
+    text-shadow: 0px 2px black;
+}
+.btn:hover{
+    background-color:  rgb(219, 105, 24);;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
